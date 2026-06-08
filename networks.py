@@ -104,7 +104,9 @@ class DDSD_GANet(nn.Module):
         # unet_weight_path = './400_net_G.pth'
         self.unet_gan.load_state_dict(torch.load(unet_weight_path))
         
-
+        for param in self.unet_gan.parameters():
+            param.requires_grad = False
+            
         self.conv_gan2 = nn.Conv2d(128, 64, kernel_size=3, stride=2, padding=1)
         self.conv_gan3 = nn.Conv2d(256, 128, kernel_size=3, stride=2, padding=1)
         self.conv_gan4 = nn.Conv2d(512, 320, kernel_size=3, stride=2, padding=1)
