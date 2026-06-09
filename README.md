@@ -10,19 +10,22 @@ DDSD-GANet is an advanced framework for Synthetic Aperture Radar (SAR) image sem
 
 ## Detailed image of Dual-Driven Spectral-Directional Cross-Modal Generative Adversarial Network
 
-<img width="1741" height="806" alt="image" src="https://github.com/user-attachments/assets/65f37380-6ec7-4425-8168-8b810ddead96" />
+<img width="761" height="387" alt="image-DDSD-GANet" src="https://github.com/user-attachments/assets/cdb0dbad-62cc-4b99-a29c-aed3a67661ce" />
+
 
 The Dual-Driven Spectral-Directional Cross-Modal Generative Adversarial Network is proposed to address the challenges of coherence-induced noise, scale inconsistency, and semantic deficiency in SAR imagery.Subfigures: (a) overall framework; (b) segmentation encoder; (c) segmentation decoder with MACU and CAG; (d) ResNet encoder; (e–f) SAR-to-optical GAN encoder/decoder; (g) Up Block for progressive upsampling; (h) OCF for cross-branch fusion and gating.
 
 ## Detailed image of Multiresolution Anisotropic Coherence Unit
+<img width="541" height="351" alt="image-MACU2" src="https://github.com/user-attachments/assets/c4a4a228-f19f-4da6-9659-5463bb72a533" />
 
-<img width="1251" height="809" alt="image" src="https://github.com/user-attachments/assets/6267064a-4606-4d55-a81b-fe92039ba67e" />
+
 
 The proposed Multiresolution Anisotropic Coherence Unit couples AAPB with MRPB to capture directional structures while suppressing speckle noise.
 
 ## Detailed image of Coherent-aware Gated Skip
 
-<img width="1137" height="553" alt="image" src="https://github.com/user-attachments/assets/6d6e5919-1e6e-4684-a7ee-198b06027167" />
+<img width="783" height="383" alt="image-CAG" src="https://github.com/user-attachments/assets/b8442cb8-de1e-4410-9807-b58dbca184ba" />
+
 
 The proposed Coherent-aware Gated Skip employs a dual-driven gating mechanism to suppress spurious patterns in shallow features and, under global semantic guidance, selectively pass true boundary information.
 
